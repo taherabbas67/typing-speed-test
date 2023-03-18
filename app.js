@@ -141,6 +141,11 @@ function displayScore(){
   cwName.innerText = "WPM";
 }
 
+
+/* displayScore -> let percentageAcc, WPM -> factor*wordsCorrect */
+
+
+
 //check if the user is entering correcrt word
 function currentWord(){
   const wordEntered = inputItem.value;
