@@ -50,4 +50,10 @@ button{
     margin: 30px;
     display: flex;
     justify-content: center;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: rgb(13, 54, 147);
+    border: 1px solid rgb(13, 54, 147);
 }
