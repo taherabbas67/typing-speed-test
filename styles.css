@@ -1,10 +1,10 @@
 html{
-  background: #212121;
+  /* background: #212121; */
 }
 
 body{
   font-family: 'Source Code Pro', monospace;
-  background: #212121;
+  /* background: #212121; */
   color: #52575d;
 }
 
@@ -12,7 +12,8 @@ a{
   color: #52575d;
 }
 .yellow{
-  color: #ffd369;
+  /* color: #ffd369; */
+  color: black;
 }
 .correct{
   color: #29bb89;
@@ -88,7 +89,8 @@ input:focus, textarea:focus, select:focus, a:focus{
   outline: 0 ;
 }
 a:focus,a:hover{
-  color: #ffd369;
+  /* color: #ffd369; */
+  color: blue;
   text-decoration: none;
 }
 
@@ -102,14 +104,34 @@ footer{
 }
 
 textarea{
-  background: #212121;
+  /* background: #212121; */
   border: solid, #52575d;
   border-width: 2px;
   border-radius: 10px;
-  color: #eeeeee;
+  /* color: #eeeeee; */
   padding: 10px;
   font-size: 1.2rem;
   resize: none;
   text-align: center;
   margin-bottom: 15px;
 }
+
+
+
+/* New Edits*/
+
+#header{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+#csi-logo{
+  width: 260px;
+  height: auto;
+}
+
+/* #gitam-logo{
+  width: 150px;
+  height: auto;
+} */
