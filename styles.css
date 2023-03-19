@@ -40,10 +40,15 @@ a{
 
 #heading{
   align-self: left;
-  margin-top: 50px;
-  font-size: 1.75rem;
+  /* margin-top: 50px; */
+  font-size: 1.85rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
+}
+#csi{
+  /* font-weight: 600; */
+  font-size: 2.3rem;
+  /* color: #e84545; */
 }
 .limits-box{
   text-align: right;
@@ -124,15 +129,36 @@ textarea{
 #header{
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 20px;
+  padding-top: 30px;
 }
 
 #csi-logo{
-  width: 280px;
+  width: 100px;
   height: auto;
+  margin-right: 30px;
 }
 
 /* #gitam-logo{
   width: 150px;
   height: auto;
 } */
+
+#img-gif{
+  width: 180px;
+  height: auto;
+}
+
+.h{
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
+  margin-top: 40px;
+}
+
+#gitam-logo{
+  width: 200px;
+  /* height: 80px; */
+  margin-left: 30px;
+}
