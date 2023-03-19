@@ -1,7 +1,6 @@
 /* html{
   background: #212121;
 } */
-
 body{
   font-family: 'Source Code Pro', monospace;
   /* background: #212121; */
@@ -14,7 +13,6 @@ a{
 .yellow{
   /* color: #ffd369; */
   color: black;
-  font-size: 1.2rem;
 }
 .correct{
   color: #29bb89;
@@ -24,7 +22,7 @@ a{
   text-decoration: underline;
 }
 .current{
-  color: #041562;
+  color: #eeeeee;
 }
 .center{
   text-align: center;
@@ -91,7 +89,7 @@ input:focus, textarea:focus, select:focus, a:focus{
 }
 a:focus,a:hover{
   /* color: #ffd369; */
-  color: #041562;
+  color: blue;
   text-decoration: none;
 }
 

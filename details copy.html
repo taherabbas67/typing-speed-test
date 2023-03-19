@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="detailsStyle.css" />
+  </head>
+  <body>
+    <div id="header">
+      <img src="image (1).png" alt="CSI-logo" id="csi-logo" />
+    </div>
+
+    <div class="dBody">
+      <form action="details.php" method="post">
+        <div class="form">
+          <div class="inp">
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="inp">
+            <label for="regno">Registration No :</label>
+            <input
+              type="text"
+              id="regno"
+              name="regno"
+              required
+              pattern="[0-9]{12}"
+            />
+            <!-- <small>Please enter a valid registration number (12 digits).</small> -->
+          </div>
+        </div>
+        <div class="form">
+          <div class="inp">
+            <label for="email">E-Mail :</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="inp">
+            <label for="phone">Phone No :</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              required
+              pattern="[0-9]{10}"
+            />
+            <!-- <small>Please enter a valid phone number (10 digits).</small> -->
+          </div>
+        </div>
+        <div class="form">
+          <div class="inp">
+            <label for="branch">Branch :</label>
+            <input type="text" id="branch" name="branch" required />
+          </div>
+          <div class="inp">
+            <label for="year">Year of study :</label>
+            <input type="text" id="year" name="year" required pattern="[1-4]" />
+            <!-- <small>Please enter a valid year of study (1-4).</small> -->
+          </div>
+        </div>
+        <button type="submit">Start</button>
+      </form>
+    </div>
+  </body>
+</html>
