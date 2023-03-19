@@ -14,7 +14,7 @@ a{
 .yellow{
   /* color: #ffd369; */
   color: black;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 .correct{
   color: #29bb89;
@@ -128,7 +128,7 @@ textarea{
 }
 
 #csi-logo{
-  width: 260px;
+  width: 280px;
   height: auto;
 }
 
