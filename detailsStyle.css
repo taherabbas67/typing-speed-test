@@ -51,6 +51,7 @@ button{
     display: flex;
     justify-content: center;
     cursor: pointer;
+    transition: 0.2s;
 }
 button:hover{
     background-color: white;

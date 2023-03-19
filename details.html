@@ -15,20 +15,41 @@
     </div>
 
     <div class="dBody">
-        <form action="">
+        <form action="" method="post">
             <div class="form">
-                <div class="inp"><label for="">Name : </label><input type="text"></div>
-                <div class="inp"><label for="">Registration No : </label><input type="text"></div>
+                <div class="inp">
+                    <label for="name">Name : </label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="inp">
+                    <label for="regno">Registration No : </label>
+                    <input type="text" id="regno" name="regno" required pattern="[0-9]{12}">
+                    <!-- <small>Please enter a valid registration number (12 digits).</small> -->
+                </div>
             </div>
             <div class="form">
-                <div class="inp"><label for="">E-Mail : </label><input type="text"></div>
-                <div class="inp"><label for="">Phone No : </label><input type="text"></div>
+                <div class="inp">
+                    <label for="email">E-Mail : </label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="inp">
+                    <label for="phone">Phone No : </label>
+                    <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}">
+                    <!-- <small>Please enter a valid phone number (10 digits).</small> -->
+                </div>
             </div>
             <div class="form">
-                <div class="inp"><label for="">Branch : </label><input type="text"></div>
-            <div class="inp"><label for="">Year of study : </label><input type="text"></div>
-        </div>
-        <button>Start</button>
+                <div class="inp">
+                    <label for="branch">Branch : </label>
+                    <input type="text" id="branch" name="branch" required>
+                </div>
+                <div class="inp">
+                    <label for="year">Year of study : </label>
+                    <input type="text" id="year" name="year" required pattern="[1-4]">
+                    <!-- <small>Please enter a valid year of study (1-4).</small> -->
+                </div>
+            </div>
+            <button type="submit">Start</button>
         </form>
     </div>
 </body>
