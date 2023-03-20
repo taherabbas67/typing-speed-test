@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-set{
+    display: flex;
+    justify-content: center;
+}
+
+.img-cls{
+    width: 700px;
+    border-radius: 2px;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding-top: 30px;
+  }
+
+  #csi-logo{
+    width: 100px;
+    height: auto;
+    margin-right: 30px;
+  }
+
+  #gitam-logo{
+    width: 200px;
+    /* height: 80px; */
+    margin-left: 30px;
+  }
+
+  .h1{
+    font-size: 1.75rem;
+    font-family:  'Source Code Pro', monospace;
+  }
+
+  #heading{
+    align-self: left;
+    /* margin-top: 50px; */
+    font-size: 1.85rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+  }
