@@ -249,3 +249,10 @@ function randomWords(diff) {
   }
   return selectedWords;
 }
+
+
+//icons
+
+// function displayQR(){
+//   document.getElementById("sp-icon").value='icons8-spotify-50.png'
+// }
